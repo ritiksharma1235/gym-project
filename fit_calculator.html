@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitness Calculator</title>
+    <link rel="stylesheet" href="fit_calculator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.jpeg" alt="" class="imgg">
+            <div>Ritik Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./fit_calculator.html">Fitness Calculator</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn"><a href="telto:9334932689">Call Us Now</a></button>
+            <button class="btn"><a href="mailto:hritiksharma8090@gmail.com"> Email Us</a></button>
+        </div>
+
+    </header>
+    <div class="bmr-calculator">
+        <h2>BMR Calculator</h2>
+        <div class="controls">
+            <form>
+                <h3>Age</h3>
+                <input type="text" id="age" placeholder="Enter Your Age" required />
+                <div class="gender">
+                    <h3>Gender</h3>
+                    <input type="radio" checked="male" value="male" name="gender" required />
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" value="female" name="gender" required />
+                    <label for="female">Female</label>
+                </div>
+                <div class="height">
+                    <h3>Height</h3>
+                    <input type="text" id="height" placeholder="Enter Your Height" required />
+                    <div class="unit">cm</div>
+                </div>
+
+                <div class="weight">
+                    <h3>Weight</h3>
+                    <input type="text" id="weight" placeholder="Enter Your Weight" required />
+                    <div class="unit">kg</div>
+                </div>
+
+            </form>
+        </div>
+        <div class="result">
+            <button class="calculate-btn">Calculate</button>
+            <div class="result-message">
+                <span class="calories">1,640</span>
+                calories/day
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <footer class="foot">
+        <div class="foot-nav">
+            <p>Get connected with us on social networkd!</p>
+            <div class="link">
+                <a href="https://www.facebook.com/profile.php?id=100008730790927" class="tag"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/?lang=en-in" class="tag"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/ritik-kumar-sharma-6415a12a1/" class="tag"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/hrithik__0.2/" class="tag"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="foot-nav2">
+            <div class="card">
+                <div class="card2">
+                    <h3 class="service">Services</h3>
+                    <p>Personal Training <br></p>
+                    <p>The Aggless Fitness Farmula <br></p>
+                    <p>Online Personal Training</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card2">
+                    <h3 class="service">Company</h3>
+                    <p>About <br></p>
+                    <p>Blog <br></p>
+                    <p>Terms & Conditions</p>
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card2">
+                    <h3 class="service">Support</h3>
+                    <p>Contact<br></p>
+                    <p>Client Login<br></p>
+                    <p>Join Our Facebook Community</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card2">
+                    <h3 class="service">Address</h3>
+                    Noida, New-Delhi <br>
+                    sector 53 A <br>
+                    CO 801223</p>
+                </div>
+            </div>
+        </div>
+        <div class="foot-nav3">
+            <div class="card3">
+                <i class="fa-regular fa-copyright"></i>
+                <p>COPYRIGHT 2024.ALL RIGHTS RESERVED</p>
+            </div>
+            <div class="card3">
+                <p>WebSite Designed By The Ritik Sharma</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
